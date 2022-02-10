@@ -140,3 +140,18 @@ console.log(myreduce(arr,(previous,current)=>{
     return previous*current.roll
 
 },1))
+
+
+
+// [ 'Aashirwad', 'Pankaj', 'Ayush', 'Nisha' ]
+// [ 'Aashirwad', 'Pankaj', 'Ayush', 'Nisha' ]
+// [ 'Aashirwad', 'Pankaj', 'Ayush', 'Nisha' ]
+// [ { name: 'Aashirwad', roll: 4 } ]
+// [
+//   { name: 'Pankaj', roll: 78 },
+//   { name: 'Ayush', roll: 70 },
+//   { name: 'Nisha', roll: 33 }
+// ]
+// [ { name: 'Pankaj', roll: 78 } ]
+// 185
+// 720720
